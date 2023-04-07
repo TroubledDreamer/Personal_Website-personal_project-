@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <!-- -->
+
+    <form action="index.html" method="post">
+
+    <label for="username">Enter your name</label><br>
+    <input id="username" name="username" type="text">
+    <br><br>
+
+    <label for="email">Enter your email</label><br>
+    <input id="email" name="email" type="text">
+    <br><br>
+
+    <span>Are you emplyed?</span> 
+    <br>
+    <input type="radio" name="emplyment" id="yes">
+    <label for="yes">Yes</label>
+    <br>
+
+    <input type="radio" name="emplyment" id="no">
+    <label for="no">No</label>
+    <br><br>
+
+    <span>What meals do you eat?</span><br>
+
+    <input type="checkbox" id="breakfast" name="meals" value="lunch">
+    <label for="meals">breakfast</label>
+
+    <input type="checkbox" id="lunch" name="meals" value="lunch">
+    <label for="lunch">lunch</label>
+
+    <input type="checkbox" name="meals" id="dinner" value="dinner">
+    <label for="dinner">dinner</label>
+    <br><br>
+
+
+    <span>how are is exercise</span>
+    <label for="exercise">hard</label>
+    <input type="range" name="exercise" step="1">
+    <label for="exercise">easy</label>
+    <br><br>
+
+    <label for="type">What type of exercise do you do?</label>
+    <input type="text" id="type" list="types">
+
+        <datalist id="types">
+            <option value="running"></option>
+            <option value="gym"></option>
+            <option value="swming"></option>
+            <option value="walking"></option>
+            <option value="sports"></option>
+
+        </datalist>
+    <br><br>
+    
+
+    <label for="experence">What is your exercising experience</label>
+    <br>
+    <textarea name="experence" id="experence" cols="30" rows="10">
+        Enter test here
+    </textarea>
+    <br><br>
+
+    <label for="location">Where are you located?</label>
+    <select id="location" name="lovation">
+        <option value="earth"></option>
+        <option value="outerspace"></option>
+    </select>
+
+
+    <input type="submit" name="submit" >
+
+
+
+
+    </form>
+
+
+
+
+</body>
+
+
+
+</html>

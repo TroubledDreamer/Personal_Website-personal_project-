@@ -1,0 +1,100 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      
+  } 
+
+/*menu */
+.menust li {
+    display: inline-block;
+    position: relative;
+
+    
+}
+
+.menust ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+text-align: center;
+
+}
+
+.menust a {
+display: inline-block;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 16px;
+color: black;
+}
+
+.menust ul li::after {
+    content: '';
+    width: 0%;
+    height: 2.5px;
+    background: #ff4500;
+    display: block;
+    margin: auto;
+    transition: 0.3s;
+    top: 3px;
+}
+
+.menust ul li:hover::after {
+    width: 100%;
+}
+
+
+/*mics*/
+
+.center{
+    margin: 0 auto;
+}
+
+.caption {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 14px;
+    padding: 10px;
+    position: relative;
+    width: 80%;
+    background-color: white;
+    color: black;
+    margin: auto;
+    top: 60px;
+  }
+
+  .box {
+    background-color: gray;
+    display: inline-block;
+    width: 24%;
+    padding: 20px 10px;
+    border-radius: 4%;
+    height: 350px;
+  }
+
+
+  .box img{
+    height: 20%;
+    
+
+  }
+
+  .more{
+    background-color: gray;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 10px;
+    
+  }
+
+
+  .contactss{
+    height: 60px;
+    width: 60px;
+  }

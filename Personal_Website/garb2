@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+  
+<!-------------------------------- HEADER SECTION-------------------------------->
+<div id="wrapper">
+  <header>
+    <center><img src="Untitled design.png" width="8%" height="10%"></center>
+    <center>
+      <h2>University of the West Indies Mona</h2>
+    </center>
+<style>
+  body {
+  background-color: #E0FFFF;
+}
+</style>
+  <header>
+
+      <head>
+
+        <title> Environment & Computing</title>
+        <div class="wrap">
+          <nav>
+            <div class="logo"> Environment & Computing</div>
+            <div id="navbar">
+              <ul>
+                <li><a style="border-right: solid;" class+"active" href="index.html"> Home</a>
+                <li>
+                <li><a style="border-right: solid;" class+"active" href="topic.html"> Topic</a>
+                </li>
+                <li><a style="border-right: solid;" class+"active" href="#devices"> Devices</a>
+                  <ul>
+                    <li><a href="phones.html"> Phones</a></li>
+                    <li><a href="laptops.html"> Laptops</a></li>
+                    <li><a href="desktops.html">Desktops</a></li>
+                    <li><a href="tv.html"> Televisions</a></li>
+                  </ul>
+                </li>
+                <li><a style="border-right: solid;" class+"active" href="about us.html"> About us</a></li>
+              </ul>
+          </nav>
+          <section></section>
+        </div>
+      </head>
+
+<body>
+    <img src="home.jpg" style="width:100%">
+<br>
+<br>
+
+<h1> Welcome Earthlings !</h1>
+<br>
+<br>
+<br>
+<br>       
+<!------------------------------DEVICES SECTION------------------------------>
+<center><b><h2 id = "devices"> Devices</h2></b></center>
+<br>
+<br>
+<br>
+<center>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="icons/phoneicon.png" alt="phone.png" style="width:70%">
+      <div class="container">
+        <h3 class="title"> Phone</h3>
+        <p>Learn more about the impacts of phones e-waste, how they can be harmful to the environment, and how you can mitigate these using solutions</p>
+        <br>
+        <a href="phones.html"><button class="button">More</button></a>
+      </div>
+    </div>
+  </div>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+  <div class="column">
+    <div class="card">
+      <img src="icons/compicon.png" alt="laptop.png" style="width:70%">
+      <div class="container">
+        <h3 class="title"> Laptop </h3>
+        <p> Learn more about the impacts of laptops e-waste, how they can be harmful to the environment, and how you can mitigate these using solutions</p>
+        <br>
+        <a href="laptops.html"><button class="button">More</button></a>
+      </div>
+    </div>
+  </div>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+  <div class="column">
+    <div class="card">
+      <img src="icons/desktopicon.png" alt="desktop.png" style="width:70%">
+      <div class="container">
+        <h3 class="title"> Desktop </h3>
+        <p> Learn more about the impacts of desktops e-waste, how they can be harmful to the environment, and how you can mitigate these using solutions</p>
+        <br>
+        <a href="desktops.html"><button class="button">More</button></a>
+      </div>
+    </div>
+  </div>
+<td>
+<td>
+<td>
+<td>
+<td>
+<td>
+  <div class="column">
+    <div class="card">
+      <img src="icons/TVicon.png" alt="tvicon.png" style="width:70%">
+      <div class="container">
+        <h3 class="title"> Television </h3>
+        <p> Learn more about the impacts of televisions e-waste, how they can be harmful to the environment, and how you can mitigate these using solutions</p>
+        <br>
+        <a href="tv.html"><button class="button">More</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+</center>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+      
+<!-------------------------------- FOOTER SECTION-------------------------------->
+<footer>
+  <div class="footer">
+    <div class="footer-content">
+      <div>
+        <br>
+        <ul><b> About Us</b></ul>
+          <ul>
+            <p> We are a group of first year computing students of the University of the West Indies, <br></br>who chose the topic Environment and computing for our web development project </p>
+            <a href="about us.html"><button class="button2">More</button></a>
+          </ul>
+      </div>
+    </div>
+    <!-------------------------------- FOOTER-------------------------------->
+    <div>
+      <div class="footer-bottom">
+        <center>&copy; E&C @2022 | Designed by Computing students</center>
+      </div>
+    </div>
+</footer>
+
+</html>
+</body>
+<script src="script.js"></script
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+
+    <div style="position: fixed; top: 340px; float: left; width: 80px; display:  inline;">
+
+
+            <a style="display: block;" href="" target="_blank"><img src="twit.png" class="contactss"></a>
+
+
+            <a style="display: block; href="https://www.youtube.com/" target="_blank"><img style='height: 50px;' src="yout.png"
+                class="contactss"></a>
+
+
+            <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="inst.png" class="contactss"></a>
+          </div>
+</body>
+
+
+
+
+</html>

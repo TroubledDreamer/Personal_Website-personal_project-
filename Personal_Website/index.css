@@ -1,0 +1,14 @@
+
+.systems-col {
+    flex-basis: 31%;
+    background: #b0e0e6ab;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    width: 500%;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    transition: 1s;
+}
+
